@@ -12,7 +12,7 @@ int lcs(string X, string Y) {
 }
 
 int main() {
-    string X = "AGGTAB", Y = "GXTXAYB";
+    string X = "AGGTAB", Y = "GXTXAYB"; //default
     cout << "Length of LCS is " << lcs(X, Y);
     return 0;
 }
