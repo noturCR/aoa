@@ -37,7 +37,7 @@ int main() {
         {6, 8, 0, 0, 9},
         {0, 5, 7, 9, 0},
     };
-    int V = 5;
+    int V = 5; //default
     prim(graph, V);
     return 0;
 }
